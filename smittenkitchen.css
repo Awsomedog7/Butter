@@ -1,0 +1,87 @@
+body {
+  background: #262622 !important;
+}
+
+.st0 {
+    fill: #fffbdef0 !important;
+}
+
+#primary-menu * {
+    color: #fffbdef0 !important;
+}
+
+* {
+    color: #fffbdef0 !important;
+}
+
+.smittenkitchen-primary-category {
+    background-color: #262622 !important;
+}
+
+p {
+    border: none !important;
+}
+
+a:hover {
+    background: none !important;
+    text-decoration: underline !important;
+}
+
+.site-footer {
+    background-color: #262622 !important;
+}
+
+.jetpack-recipe-ingredients {
+    background: #151613 !important;
+    border: none !important;
+}
+
+.submit {
+    background: #151613 !important;
+}
+
+select {
+    background: #151613 !important;
+}
+
+#comment {
+    background: #151613 !important;
+}
+
+input {
+    background: #151613 !important;
+}
+
+#i-have-a-question {
+    background: #151613 !important;
+}
+
+#i-made-this {
+    background: #151613 !important;
+}
+
+#all-comments {
+    background: #151613 !important;
+}
+
+.comment-body {
+    background: #262622 !important;
+}
+
+.smittenkitchen-recipe-listing li {
+    background: #151613 !important;
+}
+
+.jetpack-instant-search__search-results {
+    background: #262622 !important;
+}
+
+
+.main-navigation ul ul a {
+    background: #262622 !important;
+}
+
+
+.large-links a {
+    background: #151613 !important;
+}

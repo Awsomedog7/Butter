@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Butter",
+  "description": "Changes all supported websites to Butter theme.",
+  "version": "1.0.2",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "css": ["chatgpt.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://mail.proton.me/*"],
+      "css": ["protonmail.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://shortsmate.com/*"],
+      "css": ["shortsmate.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://smittenkitchen.com/*"],
+      "css": ["smittenkitchen.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

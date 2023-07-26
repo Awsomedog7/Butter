@@ -1,0 +1,130 @@
+.header {
+  background-color: #1b1b18 !important;
+}
+
+.sidebar {
+  background-color: #1b1b18 !important;
+}
+
+.button {
+  background-color: #262622 !important;
+  border: none !important;
+  color: #fffbdef0 !important;
+}
+
+.content {
+  background-color: #1b1b18 !important;
+}
+
+[aria-current="page"].navigation-link {
+  background-color: #151613 !important;
+}
+
+.navigation-link:hover {
+  background-color: #262622 !important;
+}
+
+.border {
+  border: none !important;
+}
+
+.interactive--no-background:hover {
+  background-color: #151613 !important;
+}
+
+.sidebar-meter-storage {
+  --meter-bar-thumb-color-success: #fffbdef0 !important;
+  --meter-bar-background-color: #fffbdef0 !important;
+  --meter-bar-background-color: #000000 !important;
+}
+
+.input {
+  background-color: #262622 !important;
+  border: none !important;
+  color: #fffbdef0 !important;
+}
+
+::placeholder {
+  color: #fffbdef0 !important;
+}
+
+.navigation-link-header-group-link:hover {
+  background-color: #262622 !important;
+  color: #fffbdef0 !important;
+}
+
+.item-container-row.read, .item-container.read {
+    background-color: #151613 !important;
+    color: #fffbdef0 !important;
+}
+
+.item-checkbox-label {
+    color: #1b1b18 !important;
+}
+
+.navigation-icon {
+    color: #fffbdef0 !important;
+}
+
+.navigation-link-header-group-link {
+    color: #fffbdef0 !important;
+}
+
+.navigation-link-header-group-link .navigation-icon--expand {
+    color: #fffbdef0 !important;
+}
+
+.icon-24p {
+    fill: #fffbdef0 !important;
+}
+
+.toolbar {
+    background-color: #fffbdef0 !important;
+}
+
+:root, .ui-standard {
+    --background-norm: #fffbdef0 !important;
+}
+
+a {
+    color: #fffbdef0 !important;
+}
+
+.app-infos-number {
+    color: #fffbdef0 !important;
+}
+
+button:hover {
+    background-color: #262622 !important;
+    color: #fffbdef0 !important;
+}
+
+svg {
+    color: #fffbdef0 !important;
+}
+
+.bg-promotion-text {
+    background-color: none !important;
+    color: #1b1b18 !important;
+}
+
+.toolbar-button {
+    background-color: #1b1b18 !important;
+}
+
+.navigation-counter-item {
+    color: #fffbdef0 !important;
+    background-color: none !important;
+}
+
+.composer-title-bar {
+    background-color: #151613 !important;
+}
+
+.color-weak {
+    color: #fffbdef0 !important;
+}
+
+html:not(.feature-scrollbars-off) ::-webkit-scrollbar-thumb {
+    background-color: #fffbdef0 !important;
+}

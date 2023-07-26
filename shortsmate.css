@@ -1,0 +1,45 @@
+* {
+    background: #262622 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.switch-button {
+    display: none !important;
+}
+
+:root {
+    --font-color: #fffbdef0 !important;
+}
+
+.text-muted {
+    color: #fffbdef0 !important;
+}
+
+svg {
+    background: none !important;
+}
+
+.page-content {
+    display: none !important;
+}
+
+::placeholder {
+    color: #fffbdef0 !important;
+}
+
+input {
+    color: #fffbdef0 !important;
+}
+
+.p-1 {
+    padding: 0 !important;
+}
+
+.badge {
+    display: none !important;
+}
+
+.dropdown-toggle {
+    display: none !important;
+}
