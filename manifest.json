@@ -2,35 +2,58 @@
   "manifest_version": 3,
   "name": "Butter",
   "description": "Changes all supported websites to Butter theme.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "host_permissions": [
-    "https://chat.openai.com/*",
-    "https://mail.proton.me/*",
-    "https://shortsmate.com/*",
-    "https://smittenkitchen.com/*"
+    "*://chat.openai.com/*",
+    "*://mail.proton.me/*",
+    "*://shortsmate.com/*",
+    "*://smittenkitchen.com/*",
+    "*://discord.com/*"
   ],
-  "action": {
-    "default_popup": "popup.html"
-  },
   "content_scripts": [
     {
-      "matches": ["https://chat.openai.com/*"],
-      "css": ["chatgpt.css"],
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "css": [
+        "chatgpt.css"
+      ],
       "run_at": "document_end"
     },
     {
-      "matches": ["https://mail.proton.me/*"],
-      "css": ["protonmail.css"],
+      "matches": [
+        "https://mail.proton.me/*"
+      ],
+      "css": [
+        "protonmail.css"
+      ],
       "run_at": "document_end"
     },
     {
-      "matches": ["https://shortsmate.com/*"],
-      "css": ["shortsmate.css"],
+      "matches": [
+        "https://shortsmate.com/*"
+      ],
+      "css": [
+        "shortsmate.css"
+      ],
       "run_at": "document_end"
     },
     {
-      "matches": ["https://smittenkitchen.com/*"],
-      "css": ["smittenkitchen.css"],
+      "matches": [
+        "https://smittenkitchen.com/*"
+      ],
+      "css": [
+        "smittenkitchen.css"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "https://discord.com/*"
+      ],
+      "css": [
+        "discord.css"
+      ],
       "run_at": "document_end"
     }
   ]
