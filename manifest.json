@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Butter",
   "description": "Changes all supported websites to Butter theme.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "host_permissions": [
     "*://chat.openai.com/*",
     "*://mail.proton.me/*",
